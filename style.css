@@ -1,0 +1,140 @@
+
+* {
+ display: flexbox;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    background-color: #F6583D;
+    justify-content: space-between;
+    padding:10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.logo {
+    float: left;
+}
+.button {
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+
+nav {
+    padding: 4px 100px 4px 95px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #8B4DF0;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(234, 7, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.nav-link:hover {
+    background-color:#FA50A9; ;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: ;
+    margin-bottom: ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    float: left;
+    padding:10px;
+    width: 400px;
+    margin: 5px;
+    background-color: #FACB50;
+    color: white;
+}
+
+
+article:hover {
+    background-color: #E38154;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #D7F546;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    justify-content: center;
+}
+
+.article-but:hover{
+background-color: white;
+border: 4px solid black;
+font-family: italic;
+}
+
+.fotorer-img {
+    display: flex;
+    width: 100%;
+}
+
+footer {
+    background-color: yellow;
+    padding: 10px;
+    display: flex;
+}
+
+footer a {
+    margin-right: 10px;
+    display: flex;
+}
+
+footer p {
+    font-size: 24px;
+    display: flex;
+    color: white;
+}
+
+.button:hover {
+    background-color: yellow;
+    color: black;
+    font-family: italic;
+    margin: 10px;
+}
+
+footer img:hover {
+    border-bottom: 3px   solid blue;
+}
+
+footer:hover{
+    background-color: lightpink;
+}
